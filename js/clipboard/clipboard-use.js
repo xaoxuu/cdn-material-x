@@ -1,1 +1,0 @@
-!function(n,t,o){var e;e="",e+='<button class="btn-copy" data-clipboard-snippet="">',e+='  <i class="fa fa-globe"></i><span>copy</span>',e+="</button>",$(".highlight .code pre").before(e),new ClipboardJS(".btn-copy",{target:function(n){return n.nextElementSibling}})}(window,document);
